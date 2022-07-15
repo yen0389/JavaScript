@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If anidados</title>
+</head>
+<body>
+    <script>
+        
+        var num1=prompt("Introduce el primer n°");
+
+        var num2=prompt("Introduce el segundo n°");
+
+        if(!isNaN(num1) && !isNaN(num2)){
+            var operacion=prompt("¿Qué operacion deseas realizar? suma/resta/multiplicacion/division");
+
+        if (operacion=="suma"){
+            alert (parseInt(num1)+parseInt(num2));
+        }
+
+        else if (operacion=="resta"){
+            alert (parseInt(num1)-parseInt(num2));
+        }
+
+        else if (operacion=="multiplicacion"){
+            alert (parseInt(num1)*parseInt(num2));
+        }
+
+        else if (operacion=="division"){
+            alert (parseInt(num1)/parseInt(num2));
+        }
+
+        else if (operacion=="multiplicacion" || operacion=="multiplicación"){
+            alert (parseInt(num1)*parseInt(num2));
+        }
+
+        else if (operacion=="división" || operacion=="division"){
+            alert (parseInt(num1)/parseInt(num2));
+        }
+
+        }
+    
+        else{
+            alert("Operación no contemplada");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Javascript For / In Loop</h2>
+    <p>La declaracion for / in recorre las propiedades de un objeto.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        var txt = "";
+        var person = {nombre:"Yenny", apellido:"Mendez", edad:32};
+        var x;
+        for (x in person) {
+            txt += person[x] + " ";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+    
+</body>
+</html>

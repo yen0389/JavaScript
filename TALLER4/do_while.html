@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../javascript/css/estilos_1.css">
+    <title>Bucles. Do while</title>
+    <script>
+        var nombre, edad, poblacion;
+        //nombre=prompt("Introduce tu nombre por favor");
+        do{
+            nombre=prompt("Introduce un nombre válido", "Escribe aquí el nombre");
+        }while(!isNaN(nombre));
+        //edad=prompt("Introduce tu edad, por favor");
+        do{
+            edad=prompt("Introduce una edad válida", "Escribe aquí la edad");
+        }while(edad<=0 || edad>105 || isNaN(edad));
+
+        //poblacion=prompt("Introduce población");
+        do{
+            poblacion=prompt("Introduce una población válida", "Escribe aquí la población");
+        }while(!isNaN(poblacion));
+
+    </script>
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <p>Nombre:</p>
+        <p>Edad:</p>
+        <p>Población:</p>
+    </div>
+</body>
+</html>

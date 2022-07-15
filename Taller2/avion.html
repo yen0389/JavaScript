@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion de obejto</title>
+</head>
+<body>
+    <h2>Objeto en Javascript</h2>
+    <p id="demo"></p>
+    <script>
+        // Creacion del objeto con sus atributos.
+        var avion={
+            marca: "Avianca",
+            placa: "ST-67-P",
+            color:"Gris",
+
+            // Definiendo las metodos como propiedades del objeto.
+            volar: function() {},
+            despegar: function() {},
+            aterrizar: function() {},
+        };
+        document.getElementById("demo").innerHTML = 
+        "La marca del avion es: " + avion.marca + " su placa es: " + avion.placa + " Y es de color: " + avion.color
+    </script>
+    
+</body>
+</html>

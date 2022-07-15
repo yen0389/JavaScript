@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales II</title>
+</head>
+<body>
+    <script>
+        var cuerpo=document.getElementById("cuerpo");
+
+        let colorWeb=prompt("Introduce el color de fondo. Azul/Verde/Rojo").toLowerCase();
+        if(colorWeb !="azul" && colorWeb !="verde" && colorWeb !="rojo") {
+            alert ("Ese color no esta contemplado");
+        }
+        else if(colorWeb=="azul") {
+            cuerpo.style.backgroundColor="blue";
+        }
+        else if(colorWeb=="verde") {
+            cuerpo.style.backgroundColor="green";
+        }
+        else {
+            cuerpo.style.backgroundColor="red";
+
+        } 
+    </script>
+</body>
+</html>

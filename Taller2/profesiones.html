@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Profesiones</title>
+</head>
+<body>
+   <script>
+      let persona1 = {
+            nombre: "Yenny",
+            apellido: "Mendez",
+            edad: 32,
+            aprendiz: true,
+            ingeniero: false,
+            cantante:false,
+            chef: false,
+            dj: false,
+            medico: false
+      }
+
+      function imprimirProfesiones (persona1) {
+            console.log(`${persona1.nombre} es: `)
+      
+
+         if (persona1.aprendiz) {
+            console.log("aprendiz")
+         } else {
+               console.log("No es Aprendiz")
+            }
+
+         if (persona1.ingeniero) {
+            console.log("ingeniero")
+         } else {
+            console.log("No es Ingeniero")
+            }
+      
+         if (persona1.cantante) {
+            console.log("cantante")
+         } else {
+               console.log("No es Cantante")
+            }
+      
+         if (persona1.chef) {
+            console.log("chef")
+         } else {
+               console.log("No es Chef")
+            }
+
+         if (persona1.dj) {
+            console.log("dj")
+         } else {
+               console.log("No es Dj")
+            }
+
+         if (persona1.medico) {
+            console.log("medico")
+         } else {
+               console.log("No es Medico")
+            }
+      
+      
+
+      imprimirProfesiones(persona1)
+}
+   </script>
+</body>
+</html>
